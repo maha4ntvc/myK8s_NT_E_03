@@ -10,7 +10,7 @@ spec:
     metadata:  
       labels:
          app: hello-pod
-      spec:
+    spec:
         containers:
         - name: hello-container
           image: nginx
