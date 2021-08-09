@@ -4,7 +4,7 @@ metadata:
   name: maha-svc
   labels:
      app: myjava-pod
-     version: 2.3.1
+     version: 2.3.2
 spec:
   type: NodePort
   ports:
@@ -13,4 +13,4 @@ spec:
     protocol: TCP
   selector:
       app: myjava-pod
-      version: 2.3.1
+      version: 2.3.2
